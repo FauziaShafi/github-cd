@@ -14,4 +14,4 @@ jobs:
         with:
           heroku_api_key: ${{3953acf3-6fbe-44bb-b3c8-235bd6549fa1}}
           heroku_app_name: "desolate-oasis-68756"
-          heroku_email: "fauziashafi2@gmail.com"
+          heroku_email: "fauziashafi12@gmail.com"
