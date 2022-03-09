@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.11
+        with:
+          heroku_api_key: ${{3953acf3-6fbe-44bb-b3c8-235bd6549fa1}}
+          heroku_app_name: "desolate-oasis-68756"
+          heroku_email: "fauziashafi2@gmail.com"
